@@ -1,0 +1,33 @@
+
+
+  h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+    height: 100%; /* Assure que le body occupe toute la hauteur */
+    margin: 0;    /* Supprime les marges par défaut */
+    display: flex; /* Utilise Flexbox pour la mise en page */
+    justify-content: center;  /* Centrer horizontalement */
+    align-items: center;      /* Centrer verticalement */
+    }
+.text{
+    color:black;
+    font-family: "Times New Roman", serif; 
+    font-size: 20px;
+    display: flex; /* Utilise Flexbox pour la mise en page */
+    justify-content: center;  /* Centrer horizontalement */
+    align-items: center;
+    height: 100%; /* Assure que le body occupe toute la hauteur */
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+    
+.video{
+    width: 50%;
+    height: auto;
+    border: 2px solid white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
